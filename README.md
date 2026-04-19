@@ -82,9 +82,8 @@ To run this project locally, you will need to open **two separate terminal windo
 1.  Get your free API key from Google AI Studio.
 2.  **Never commit your API key to GitHub.** To prevent leaks, we use a `.env` file.
 3.  Navigate to the root folder and create a new file named exactly `.env`.
-4.  Add the following line to the file, replacing the placeholder with your actual key:
-        ```env
-        GEMINI_API_KEY=your_actual_api_key_here
+4.  Add the following line to the file, replacing the placeholder with your actual key: `GEMINI_API_KEY=your_actual_api_key_here`
+    
 
 ## Step 2: Start the backend (Terminal 1)
 
