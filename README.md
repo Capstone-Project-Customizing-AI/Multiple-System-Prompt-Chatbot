@@ -66,7 +66,7 @@ To run this project locally, you will need to open **two separate terminal windo
 ## Step 1: Secure your personal Gemini API key
 1.  Get your free API key from Google AI Studio.
 2.  **Never commit your API key to GitHub.** To prevent leaks, we use a `.env` file.
-3.  Navigate to the `backend` folder and create a new file named exactly `.env`.
+3.  Navigate to the root folder and create a new file named exactly `.env`.
 4.  Add the following line to the file, replacing the placeholder with your actual key:
         ```env
         GEMINI_API_KEY=your_actual_api_key_here
@@ -81,13 +81,13 @@ To run this project locally, you will need to open **two separate terminal windo
 
 3.  Activate the virtual environment
 
-    Windows (in command prompt or terminal inside Visual Studio Code): 
+    Windows (in command prompt or terminal inside Visual Studio Code):
     ```venv\Scripts\activate```
 
-    Windows (in PowerShell):     
+    Windows (in PowerShell):
     ```.\venv\Scripts\Activate.ps1```
 
-    Linux / macOS:            
+    Linux / macOS:
     ```source venv/bin/activate```
 
 4.  Install dependencies
